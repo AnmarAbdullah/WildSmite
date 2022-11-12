@@ -6,6 +6,9 @@ TagManager:
   tags:
   - SpawnPoint
   - Rooms
+  - LevelGenSpawn
+  - EnemySpawnPoint
+  - Ammo
   layers:
   - Default
   - TransparentFX
