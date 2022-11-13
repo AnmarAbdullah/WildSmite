@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2663200330389324964}
   m_Layer: 0
   m_Name: EnemySpawnPoint
-  m_TagString: EnemySpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852739508986492235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.35, z: 0.81}
+  m_LocalPosition: {x: -0.021, y: 1.242, z: 1.292}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,11 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5f66d03d9618e43a8a273aeeeb8703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 6226954515397638113}
-  - {fileID: 8359145224411057799}
-  enemyPrefab: {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67,
-    type: 3}
+  enemyPrefab:
+  - {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67, type: 3}
+  - {fileID: 1458638015624504640, guid: 259d6acba69abc141b982ee1ffd4a418, type: 3}
+  - {fileID: 4998973317327098821, guid: 4ff8a29104791344791ff73ce177fe41, type: 3}
+  EnemyCount: 2
+  radius: 0.8
 --- !u!1 &1615633483272967530
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,7 +572,7 @@ GameObject:
   - component: {fileID: 8534554382606968329}
   m_Layer: 0
   m_Name: EnemySpawnPoint (1)
-  m_TagString: EnemySpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -584,7 +585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3008046632453426221}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.35, z: 4.27}
+  m_LocalPosition: {x: -0.020999998, y: 1.2420001, z: 4.752}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -603,11 +604,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5f66d03d9618e43a8a273aeeeb8703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 6226954515397638113}
-  - {fileID: 8359145224411057799}
-  enemyPrefab: {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67,
-    type: 3}
+  enemyPrefab:
+  - {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67, type: 3}
+  - {fileID: 1458638015624504640, guid: 259d6acba69abc141b982ee1ffd4a418, type: 3}
+  - {fileID: 4998973317327098821, guid: 4ff8a29104791344791ff73ce177fe41, type: 3}
+  EnemyCount: 2
+  radius: 0.8
 --- !u!1 &3775956279722617069
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3206663322548901947}
   - component: {fileID: 9014937463811898191}
+  - component: {fileID: 8820026893550069008}
   m_Layer: 0
   m_Name: Room4
   m_TagString: Untagged
@@ -806,6 +809,19 @@ MonoBehaviour:
   Exits: {fileID: 1183301080548993749}
   Bounds: {fileID: 91026702257837850}
   DeadEndChance: 10
+--- !u!65 &8820026893550069008
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4822285536478825251}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0249522, y: 0.62140006, z: 6.493037}
+  m_Center: {x: -0.02749446, y: -0.18929997, z: 2.7465186}
 --- !u!1 &4977562280754606332
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,14 +1015,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7861513541888787779}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0.53647596, y: 1.395906, z: -0.64882636}
   m_LocalScale: {x: 2, y: 0.0951, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8760687500064126855}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!33 &7839586884349759547
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1032,7 +1048,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}

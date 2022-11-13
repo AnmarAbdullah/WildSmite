@@ -293,7 +293,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2891307179422109653}
-  - component: {fileID: 1160728567310376349}
   m_Layer: 0
   m_Name: Ammo (1)
   m_TagString: Ammo
@@ -316,27 +315,6 @@ Transform:
   m_Father: {fileID: 6914031863386007755}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1160728567310376349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1851993279735024076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7168b88cc8415545ae8ba32c1c5a5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8764113932381916498}
-  - {fileID: 2891307179422109653}
-  - {fileID: 7819914021464599584}
-  - {fileID: 9144184778908325324}
-  - {fileID: 2422682141885593478}
-  - {fileID: 8642042135189606372}
-  ammoPrefab: {fileID: 135676020537438812, guid: 67601559016461a4d98073d5974b59aa,
-    type: 3}
 --- !u!1 &2513937238307011965
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,7 +386,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8642042135189606372}
-  - component: {fileID: 1310209653465768792}
   m_Layer: 0
   m_Name: Ammo (5)
   m_TagString: Ammo
@@ -431,27 +408,6 @@ Transform:
   m_Father: {fileID: 6914031863386007755}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1310209653465768792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2908599674601968861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7168b88cc8415545ae8ba32c1c5a5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8764113932381916498}
-  - {fileID: 2891307179422109653}
-  - {fileID: 7819914021464599584}
-  - {fileID: 9144184778908325324}
-  - {fileID: 2422682141885593478}
-  - {fileID: 8642042135189606372}
-  ammoPrefab: {fileID: 135676020537438812, guid: 67601559016461a4d98073d5974b59aa,
-    type: 3}
 --- !u!1 &3315776998645274509
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +417,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7819914021464599584}
-  - component: {fileID: 7023531510832525039}
   m_Layer: 0
   m_Name: Ammo (2)
   m_TagString: Ammo
@@ -484,27 +439,6 @@ Transform:
   m_Father: {fileID: 6914031863386007755}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7023531510832525039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3315776998645274509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7168b88cc8415545ae8ba32c1c5a5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8764113932381916498}
-  - {fileID: 2891307179422109653}
-  - {fileID: 7819914021464599584}
-  - {fileID: 9144184778908325324}
-  - {fileID: 2422682141885593478}
-  - {fileID: 8642042135189606372}
-  ammoPrefab: {fileID: 135676020537438812, guid: 67601559016461a4d98073d5974b59aa,
-    type: 3}
 --- !u!1 &3549221906715588879
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +884,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9144184778908325324}
-  - component: {fileID: 4714711753240707251}
   m_Layer: 0
   m_Name: Ammo (3)
   m_TagString: Ammo
@@ -973,27 +906,6 @@ Transform:
   m_Father: {fileID: 6914031863386007755}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4714711753240707251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5618778206019836163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7168b88cc8415545ae8ba32c1c5a5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8764113932381916498}
-  - {fileID: 2891307179422109653}
-  - {fileID: 7819914021464599584}
-  - {fileID: 9144184778908325324}
-  - {fileID: 2422682141885593478}
-  - {fileID: 8642042135189606372}
-  ammoPrefab: {fileID: 135676020537438812, guid: 67601559016461a4d98073d5974b59aa,
-    type: 3}
 --- !u!1 &5798177416143620515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,7 +1208,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2422682141885593478}
-  - component: {fileID: 5854009284191841300}
   m_Layer: 0
   m_Name: Ammo (4)
   m_TagString: Ammo
@@ -1319,27 +1230,6 @@ Transform:
   m_Father: {fileID: 6914031863386007755}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5854009284191841300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8708801192668279749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7168b88cc8415545ae8ba32c1c5a5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8764113932381916498}
-  - {fileID: 2891307179422109653}
-  - {fileID: 7819914021464599584}
-  - {fileID: 9144184778908325324}
-  - {fileID: 2422682141885593478}
-  - {fileID: 8642042135189606372}
-  ammoPrefab: {fileID: 135676020537438812, guid: 67601559016461a4d98073d5974b59aa,
-    type: 3}
 --- !u!1 &8998686591652001085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,7 +1367,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8764113932381916498}
-  - component: {fileID: 5552551955908933511}
   m_Layer: 0
   m_Name: Ammo
   m_TagString: Ammo
@@ -1500,24 +1389,3 @@ Transform:
   m_Father: {fileID: 6914031863386007755}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5552551955908933511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9217812753939865395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7168b88cc8415545ae8ba32c1c5a5af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8764113932381916498}
-  - {fileID: 2891307179422109653}
-  - {fileID: 7819914021464599584}
-  - {fileID: 9144184778908325324}
-  - {fileID: 2422682141885593478}
-  - {fileID: 8642042135189606372}
-  ammoPrefab: {fileID: 135676020537438812, guid: 67601559016461a4d98073d5974b59aa,
-    type: 3}

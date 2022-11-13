@@ -589,7 +589,7 @@ GameObject:
   - component: {fileID: 6839288825094316277}
   m_Layer: 0
   m_Name: EnemySpawnPoint
-  m_TagString: EnemySpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -602,7 +602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2840202623816396494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.345, z: 1.37}
+  m_LocalPosition: {x: 0, y: 1.64, z: 1.4509999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -621,12 +621,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5f66d03d9618e43a8a273aeeeb8703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8851104949479386212}
-  - {fileID: 8624817149067679823}
-  - {fileID: 2727615843483967964}
-  enemyPrefab: {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67,
-    type: 3}
+  enemyPrefab:
+  - {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67, type: 3}
+  - {fileID: 1458638015624504640, guid: 259d6acba69abc141b982ee1ffd4a418, type: 3}
+  - {fileID: 4998973317327098821, guid: 4ff8a29104791344791ff73ce177fe41, type: 3}
+  EnemyCount: 2
+  radius: 0.37
 --- !u!1 &3030532992922458853
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +639,7 @@ GameObject:
   - component: {fileID: 3126021388500386407}
   m_Layer: 0
   m_Name: EnemySpawnPoint (1)
-  m_TagString: EnemySpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -652,7 +652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3030532992922458853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.57, y: 0.345, z: 2.946}
+  m_LocalPosition: {x: 1.57, y: 1.6270001, z: 3.004}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -671,12 +671,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5f66d03d9618e43a8a273aeeeb8703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8851104949479386212}
-  - {fileID: 8624817149067679823}
-  - {fileID: 2727615843483967964}
-  enemyPrefab: {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67,
-    type: 3}
+  enemyPrefab:
+  - {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67, type: 3}
+  - {fileID: 1458638015624504640, guid: 259d6acba69abc141b982ee1ffd4a418, type: 3}
+  - {fileID: 4998973317327098821, guid: 4ff8a29104791344791ff73ce177fe41, type: 3}
+  EnemyCount: 2
+  radius: 0.37
 --- !u!1 &4189667583925358945
 GameObject:
   m_ObjectHideFlags: 0
@@ -1448,7 +1448,7 @@ GameObject:
   - component: {fileID: 8896264849100438061}
   m_Layer: 0
   m_Name: EnemySpawnPoint (2)
-  m_TagString: EnemySpawnPoint
+  m_TagString: Untagged
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1461,7 +1461,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8675459120809649014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.713, y: 0.345, z: 2.946}
+  m_LocalPosition: {x: -1.713, y: 1.64, z: 3.027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1480,12 +1480,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc5f66d03d9618e43a8a273aeeeb8703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnSpots:
-  - {fileID: 8851104949479386212}
-  - {fileID: 8624817149067679823}
-  - {fileID: 2727615843483967964}
-  enemyPrefab: {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67,
-    type: 3}
+  enemyPrefab:
+  - {fileID: 2179636852536878707, guid: 383d1b24db1ce0940aaaac5299244f67, type: 3}
+  - {fileID: 1458638015624504640, guid: 259d6acba69abc141b982ee1ffd4a418, type: 3}
+  - {fileID: 4998973317327098821, guid: 4ff8a29104791344791ff73ce177fe41, type: 3}
+  EnemyCount: 2
+  radius: 0.37
 --- !u!1 &8884922338412598551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1496,6 +1496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5811985072942723372}
   - component: {fileID: 1492136533057598152}
+  - component: {fileID: 5681794240585311868}
   m_Layer: 0
   m_Name: Corridor2
   m_TagString: Untagged
@@ -1548,6 +1549,19 @@ MonoBehaviour:
   Exits: {fileID: 2334874028833358124}
   Bounds: {fileID: 1710268326293223300}
   DeadEndChance: 5
+--- !u!65 &5681794240585311868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8884922338412598551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.208673, y: 0.605371, z: 7.1353126}
+  m_Center: {x: -0.2318356, y: -0.1973145, z: 3.0676563}
 --- !u!1 &8979760791001271592
 GameObject:
   m_ObjectHideFlags: 0

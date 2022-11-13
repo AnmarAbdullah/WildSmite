@@ -387,7 +387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Seed: 0
   SectionContainer: {fileID: 0}
-  MaxLevelSize: 10
+  MaxLevelSize: 5
   MaxAllowedOrder: 12
   Sections:
   - {fileID: 11835433341965080, guid: c922fec10f3cea841860c7478e6c2899, type: 3}
